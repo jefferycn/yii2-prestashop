@@ -1,6 +1,14 @@
 # phpstorm project files
 .idea
 
+assets/*
+!assets/.gitignore
+protected/runtime/*
+
+!protected/runtime/.gitignore
+protected/data/*.db
+themes/classic/views/
+
 # netbeans project files
 nbproject
 
@@ -25,3 +33,4 @@ composer.phar
 phpunit.phar
 # local phpunit config
 /phpunit.xml
+
